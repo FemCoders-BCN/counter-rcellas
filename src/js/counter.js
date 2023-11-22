@@ -5,25 +5,25 @@ const Result=()=>{
 
 }
 function add() {
-    contador++;
-    Result()
+    const number = document.getElementById('number');
+    number.innerHTML++;
   
 }
 
 function reset() {
-    contador = 0; // Actualiza el valor de contador a cero
-    Result();
+    const number = document.getElementById('number');
+    number.innerHTML = 0;
   
 
 }
 
 function decrease() {
     
-    if (contador > 0) {
-        contador--;
-        Result();
+    const number = document.getElementById('number');
+    if(number.innerHTML == 0){
+        number.innerHTML = 0;
     } else {
-        Result();
+        number.innerHTML --;
     }
 }
 
