@@ -20,4 +20,6 @@ function decrease() {
     } else {
         number.innerHTML --;
     }
-}                  
+}     
+
+export { add, reset, decrease}
