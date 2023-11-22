@@ -1,9 +1,4 @@
-let contador = 0;
 
-const Result=()=>{
-    document.getElementById('number').innerHTML = contador;
-
-}
 function add() {
     const number = document.getElementById('number');
     number.innerHTML++;
