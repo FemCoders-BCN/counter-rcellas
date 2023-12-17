@@ -1,7 +1,7 @@
 {
   "tests": [
     {
-      "name": "counter",
+      "name": "counter test",
       "setup": "npm install",
       "run": "npm test",
       "input": "",
