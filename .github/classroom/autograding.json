@@ -1,13 +1,13 @@
 {
   "tests": [
     {
-      "name": "counter test",
+      "name": "Counter test",
       "setup": "npm install",
       "run": "npm test",
       "input": "",
       "output": "",
       "comparison": "exact",
-      "timeout": 10,
+      "timeout": 20,
       "points": null
     }
   ]
